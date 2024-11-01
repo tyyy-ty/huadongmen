@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>唐瑶</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="./shuiguo/iconfont.css">
+    <script src="iconfont.js"></script>
+    <style>
+        .yiji{
+            display: flex;
+            flex-direction:column;
+        }
+        .yiji>li{
+            list-style: none;
+            background-color: papayawhip;
+            float: left;
+            display: flex;
+            margin: 3px 5px;
+            width: 100px;
+            height: 110px;
+            border-radius:10px;
+            justify-content:center;
+            align-items:center;
+            writing-mode: vertical-lr;
+            position: relative;
+        }
+        a{
+            font-size: 38px;
+            color: black;
+            text-decoration:none;
+        }
+        .yi{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .er{
+            background-color:cornsilk;
+            width: 600px;
+            height: 80px ;
+            border-radius: 10px;
+            display:none;
+            position: absolute;
+            left: 100px;
+            top: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .erji>li{
+            list-style: none;
+            margin:5px 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .erji{
+            display: flex;
+            flex-direction:column;
+            padding: 0px;
+        }
+        .yiji>li:hover>.er{
+            display: block;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="yi">
+        <ul class="yiji">
+            <li>
+                <a href="#">寒性<br>水果</a>
+                <div class="er">
+                    <ul class="erji">
+                        <li><a href=""><span class="iconfont icon-shanzha"></span>山楂</a></li>
+                        <li><a href=""><span class="iconfont icon-juzi"></span>橘子</a></li>
+                        <li><a href=""><span class="iconfont icon-ningmeng"></span>柠檬</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">凉性<br>水果</a>
+                <div class="er">
+                    <ul class="erji">
+                        <li><a href=""><span class="iconfont icon-pipa"></span>枇杷</a></li>
+                        <li><a href=""><span class="iconfont icon-li"></span>梨子</a></li>
+                        <li><a href=""><span class="iconfont icon-caomei"></span>草莓</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">热性<br>水果</a>
+                <div class="er">
+                    <ul class="erji">
+                        <li><a href=""><span class="iconfont icon-longyan"></span>龙眼</a></li>
+                        <li><a href=""><span class="iconfont icon-liulian"></span>榴莲</a></li>
+                        <li><a href=""><span class="iconfont icon-mugua"></span>木瓜</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">温性<br>水果</a>
+                <div class="er">
+                    <ul class="erji">
+                        <li><a href=""><span class="iconfont icon-pingguo"></span>苹果</a></li>
+                        <li><a href=""><span class="iconfont icon-mangguo"></span>芒果</a></li>
+                        <li><a href=""><span class="iconfont icon-lizi"></span>李子</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">平性<br>水果</a>
+                <div class="er">
+                    <ul class="erji">
+                        <li><a href=""><span class="iconfont icon-putao"></span>葡萄</a></li>
+                        <li><a href=""><span class="iconfont icon-boluo"></span>菠萝</a></li>
+                        <li><a href=""><span class="iconfont icon-lanmei"></span>蓝莓</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
